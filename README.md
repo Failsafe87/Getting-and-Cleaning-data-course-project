@@ -13,14 +13,14 @@ The program explicitly uses the files "features.txt", "activity_lables.txt", "X_
 
 #Run_analysis.R Walkthrough
 
--Set your working directory to where both Run_analysis.R is located and the folder "UCI HAR Dataset."
--next enter the following code: source("Run_analysis.R")
--The code will then start reading the text files from the "UCI HAR Dataset" that are required
--The code will then combine the datasets into two separate data sets of similar subjects
--The code will then add easier to use names and identifiers to the dataset
--The code will then find all cases of -mean() or -std () to isolate what we need
--The code will then add the names to the columns that are more descriptive and helpful and then combine both datasets in to one
--The code will the separate the big dataset into one that only includes those isolated -mean() and -std() that we are looking for
--the code will then create a separate dataset that only consists of the -mean() and -std() with descriptive labels
--finally, the code will write this last dataset to a separate .txt file called "Samsung_data.txt" which will be placed in the 
+*Set your working directory to where both Run_analysis.R is located and the folder "UCI HAR Dataset."
+*next enter the following code: source("Run_analysis.R")
+*The code will then start reading the text files from the "UCI HAR Dataset" that are required
+*The code will then combine the datasets into two separate data sets of similar subjects
+*The code will then add easier to use names and identifiers to the dataset
+*The code will then find all cases of -mean() or -std () to isolate what we need
+*The code will then add the names to the columns that are more descriptive and helpful and then combine both datasets in to one
+*The code will the separate the big dataset into one that only includes those isolated -mean() and -std() that we are looking for
+*the code will then create a separate dataset that only consists of the -mean() and -std() with descriptive labels
+*finally, the code will write this last dataset to a separate .txt file called "Samsung_data.txt" which will be placed in the 
 directory you are currently working in.
