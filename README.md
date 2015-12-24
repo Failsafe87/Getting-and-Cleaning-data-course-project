@@ -14,7 +14,6 @@ The program explicitly uses the files "features.txt", "activity_lables.txt", "X_
 #Run_analysis.R Walkthrough
 
 * Set your working directory to where both Run_analysis.R is located and the folder "UCI HAR Dataset."
-
 * next enter the following code: source("Run_analysis.R")
 * The code will then start reading the text files from the "UCI HAR Dataset" that are required
 * The code will then combine the datasets into two separate data sets of similar subjects
